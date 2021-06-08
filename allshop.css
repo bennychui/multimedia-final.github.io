@@ -1,16 +1,25 @@
+.goodsline1{
+    margin: auto;
+    display: flex;
+    overflow: visible;
+}
+
+
+.goodscard
+{
+    position: relative;
+    
+    margin: 2em;
+    width: 350px;
+    height: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .goodsphoto
 {
+      width:350px;
+    height: 350px;
     
-}
-
-.photocard 
-{
-    position: relative;
-    margin: 1.5em;
-    width: 355px;
-    height: 355px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .name-font
@@ -22,11 +31,13 @@
 
 .price-font
 {
+    position: relative;
     text-align: left;
     color: #ffffff;
     font-weight: bold;
-    top: 15px;
+    top: 0px;
 }
+
 
 .img_description_layer 
 {
@@ -44,7 +55,7 @@
     align-items: center;
     justify-content: center;
 }
-.photocard:hover .img_description_layer 
+.goodscard:hover .img_description_layer 
 {
     visibility: visible;
     opacity: 1;
@@ -56,7 +67,7 @@
     transition: 0.5s;
     transform: translateY(1em);
 }
-.photocard:hover .img_description_text
+.goodscard:hover .img_description_text
 {
     transform: translate(0em);
 }
