@@ -1,35 +1,46 @@
-
-.photocard 
-{
-    position: relative;
-    margin: 1.5em;
-    width: 250px;
-    height: 250px;
-    
+.goodsline1 {
+    margin: auto;
+    display: flex;
+    overflow: visible;
 }
 
-.name-font
-{
+
+.goodscard {
+    position: relative;
+
+    margin: 2em;
+    width: 350px;
+    height: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.goodsphoto {
+    width: 350px;
+    height: 350px;
+
+}
+
+.name-font {
     font-weight: 400;
     font-size: 18px;
-    color:#fae1e1;
+    color: #fae1e1;
 }
 
-.price-font
-{
+.price-font {
+    position: relative;
     text-align: left;
     color: #ffffff;
     font-weight: bold;
-    top: 15px;
+    top: 0px;
 }
 
-.img_description_layer 
-{
+
+.img_description_layer {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;  
+    right: 0;
     color: rgb(155, 155, 155);
     background: rgba(161, 161, 161, 0.6);
     visibility: hidden;
@@ -39,19 +50,18 @@
     align-items: center;
     justify-content: center;
 }
-.photocard:hover .img_description_layer 
-{
+
+.goodscard:hover .img_description_layer {
     visibility: visible;
     opacity: 1;
 }
 
-.img_description_text 
-{
-    color:red;
+.img_description_text {
+    color: red;
     transition: 0.5s;
     transform: translateY(1em);
 }
-.photocard:hover .img_description_text
-{
+
+.goodscard:hover .img_description_text {
     transform: translate(0em);
 }
