@@ -1,0 +1,57 @@
+
+.photocard 
+{
+    position: relative;
+    margin: 1.5em;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.name-font
+{
+    font-weight: 400;
+    font-size: 18px;
+    color:#fae1e1;
+}
+
+.price-font
+{
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+    top: 15px;
+}
+
+.img_description_layer 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    color: rgb(155, 155, 155);
+    background: rgba(161, 161, 161, 0.6);
+    visibility: hidden;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photocard:hover .img_description_layer 
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.img_description_text 
+{
+    color:red;
+    transition: 0.5s;
+    transform: translateY(1em);
+}
+.photocard:hover .img_description_text
+{
+    transform: translate(0em);
+}
