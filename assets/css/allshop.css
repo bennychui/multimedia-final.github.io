@@ -4,6 +4,12 @@
     overflow: visible;
 }
 
+.goodsline2 {
+    margin: auto;
+    display: flex;
+    overflow: visible;
+    margin-top: 45px;
+}
 
 .goodscard {
     position: relative;
@@ -31,7 +37,7 @@
     text-align: left;
     color: #ffffff;
     font-weight: bold;
-    top: 0px;
+    top: -20px;
 }
 
 
