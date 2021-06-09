@@ -2548,7 +2548,7 @@ ol.default li {
 
 .intro{
 	position: relative;
-	top: -300px;
+	top: -330px;
 	left: 550px;
 	width:50%;
     padding:10px;
@@ -2563,8 +2563,9 @@ ol.default li {
 
 .intro-price{
 	position: relative;
-	top: -40px;
+	top: -50px;
 	display: flexbox;
 	font-size: 20px;
 	text-align: right;
+	color: rgb(243, 243, 243);
 }
