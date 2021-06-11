@@ -2548,7 +2548,7 @@ ol.default li {
 
 .intro{
 	position: relative;
-	top: -330px;
+	top: -23.5em;
 	left: 550px;
 	width:50%;
     padding:10px;
@@ -2568,4 +2568,22 @@ ol.default li {
 	font-size: 20px;
 	text-align: right;
 	color: rgb(243, 243, 243);
+}
+
+.buy-it{
+	position: relative;
+	left: 45em;
+	display: flex;
+	width: 6em;
+	background-color: wheat;
+	color: black;
+}
+
+.cart-it{
+	position: relative;
+	left: 45em;
+	display: flex;
+	width: 6em;
+	background-color: wheat;
+	color: black;
 }
